@@ -1,0 +1,25 @@
+.question-field {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+#choises {
+    margin-top: 20px;
+}
+
+#buttonContainer {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 5px;
+}
+
+#score {
+    margin-top: 20px;
+}
