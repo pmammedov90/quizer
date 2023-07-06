@@ -14,17 +14,23 @@
 </head>
 
 <body>
-    <h1 class="heading">
-        <img class="logo" src="assets/images/quizer_logo.png" alt="logo"> Quizer
-    </h1>
+    <img class="logo" src="assets/images/quizer_logo.png" alt="logo">
 
-    <div class=question-field>
-
+    <div class="question-field">
+        <h1>Quizer</h1>
+        <h2 id="question"></h2>
+        <div id="choices"></div>
+        <div id="buttonContainer">
+            <button id="backBtn" disabled>Back</button>
+            <button id="nextBtn">Next</button>
+        </div>
+        <button id="submitBtn">Submit</button>
     </div>
 
     <div class="score-board">
-
+        <p id="score"></p>
     </div>
+
     <script src="assets/js/script.js"></script>
 </body>
 

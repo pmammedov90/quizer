@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.heading {
+    font-family: 'Belanosima', sans-serif;
+}
+
 h1, h2 {
     font-family: Arial, sans-serif;
 }
