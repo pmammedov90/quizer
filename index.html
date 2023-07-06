@@ -18,16 +18,23 @@
 
     <div class="question-field">
         <h1>Quizer</h1>
+
+        <!-- Username input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+
+        <!-- Question display section -->
         <h2 id="question"></h2>
         <div id="choices"></div>
+
+        <!-- Navigation buttons -->
         <div id="buttonContainer">
             <button id="backBtn" disabled>Back</button>
             <button id="nextBtn">Next</button>
         </div>
-        <button id="submitBtn">Submit</button>
-    </div>
 
-    <div class="score-board">
+        <!-- Submit button and score display section -->
+        <button id="submitBtn">Submit</button>
         <p id="score"></p>
     </div>
 
