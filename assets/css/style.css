@@ -8,11 +8,12 @@
     font-family: 'Belanosima', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Arial, sans-serif;
 }
 
-#choises {
+#choices {
     margin-top: 20px;
 }
 

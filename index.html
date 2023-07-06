@@ -6,38 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Link to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+
+    <!-- Link to custom CSS file -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+
+    <title>Quizer</title>
 </head>
 
 <body>
-    <img class="logo" src="assets/images/quizer_logo.png" alt="logo">
-
+    <!-- Main container for the question field -->
     <div class="question-field">
+        <img class="logo" src="assets/images/quizer_logo.png" alt="logo">
         <h1>Quizer</h1>
 
         <!-- Username input -->
         <label for="username">Username:</label>
-        <input type="text" id="username" placeholder="Enter your username">
+        <input type="text" id="usernameInput" placeholder="Enter your username">
 
-        <!-- Question display section -->
-        <h2 id="question"></h2>
-        <div id="choices"></div>
-
-        <!-- Navigation buttons -->
-        <div id="buttonContainer">
-            <button id="backBtn" disabled>Back</button>
-            <button id="nextBtn">Next</button>
-        </div>
-
-        <!-- Submit button and score display section -->
-        <button id="submitBtn">Submit</button>
-        <p id="score"></p>
+        <!-- Start quiz button -->
+        <button id="startBtn">Start Quiz</button>
     </div>
 
+    <!-- Script tag to include the JavaScript file -->
     <script src="assets/js/script.js"></script>
 </body>
 
