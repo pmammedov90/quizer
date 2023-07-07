@@ -2,35 +2,26 @@
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    padding-top: 100px;
 }
 
-.username-field {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.heading {
-    font-family: 'Belanosima', sans-serif;
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1,
-h2 {
-    font-family: Arial, sans-serif;
-}
-
-#choices {
-    margin-top: 20px;
-}
-
-#buttonContainer {
-    margin-top: 20px;
+label,
+input,
+button {
+    margin: 5px;
 }
 
 button {
-    margin: 0 5px;
-}
-
-#score {
-    margin-top: 20px;
+    padding: 8px 16px;
 }
