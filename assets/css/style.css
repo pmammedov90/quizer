@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.username-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust the height as needed */
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.input-group label,
+.input-group input,
+.input-group button {
+    margin: 0;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+}
+
+.input-group input,
+.input-group button {
+    height: 30px;
+}
+
+.input-group button {
+    padding: 0 10px;
+    background: rgb(226, 88, 88);
+}
+
+.username-field img {
+    margin-bottom: 20px;
+    /* Optional: Add margin-bottom to the logo */
+}
+
+.button-start:hover {
+    background-color: #f3a2a2;
+    transition: 0.1s;
+}
+
+
+body {
+    background: #8593a1;
+}

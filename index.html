@@ -18,15 +18,31 @@
 </head>
 
 <body>
-    <!-- Start Quiz button -->
-    <div class="start_button">
-        <button>Start Quiz</button>
+
+    <div class="username-field">
+        <div><img class="logo" src="assets/images/quizer_logo3.png" alt="logo"></div>
+        <dv>
+            <h2>Welcome to Quizer</h2>
+        </dv>
+        <form id="username-form">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username-input" placeholder="Enter your username">
+
+                <!-- start Quiz button -->
+                <button class="button-start" id="start-button">Start Quiz</button>
+            </div>
+        </form>
     </div>
 
-    
+
+
+
+
+
 
     <!-- The questions and options will be loaded from the JavaScript file -->
-    <script src="js/questions.js"></script>
+    <script src="js/question-bank.js"></script>
 
     <!-- Script tag to include the JavaScript file -->
     <script src="assets/js/script.js"></script>
