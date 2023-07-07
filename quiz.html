@@ -19,28 +19,21 @@
 
 <body>
 
-    <div><img class="logo" src="assets/images/quizer_logo3.png" alt="logo"></div>
+    <div class="app">
+        <div><img class="logo" src="assets/images/quizer_logo3.png" alt="logo"></div>
 
-    <div class="quiz_box">
-        <section>
-            <div class="question_text">
-                <!-- Here I've inserted question from JavaScript -->
+        <h1>Quizer Time</h1>
+        <div class="quiz-questions">
+            <h2 id="question">Question goes here</h2>
+            <div id="choice-buttons">
+                <button class="btn">Option1</button>
+                <button class="btn">Option2</button>
+                <button class="btn">Option3</button>
+                <button class="btn">Option4</button>
             </div>
-            <div class="option_list">
-                <!-- Here I've inserted options from JavaScript -->
-            </div>
-        </section>
-        <!-- footer of Quiz Box -->
-        <footer>
-            <div class="total_questions">
-                <!-- Here I've inserted Question Count Number from JavaScript -->
-            </div>
-            <button class="next_button">Next</button>
-        </footer>
+            <button id="next-button">Next</button>
+        </div>
     </div>
-
-    <!-- The questions and options will be loaded from the JavaScript file -->
-    <script src="js/question-bank.js"></script>
 
     <!-- Script tag to include the JavaScript file -->
     <script src="assets/js/script.js"></script>
