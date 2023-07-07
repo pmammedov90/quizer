@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+.username-field {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .heading {
     font-family: 'Belanosima', sans-serif;
 }

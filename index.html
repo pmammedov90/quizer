@@ -19,17 +19,21 @@
 
 <body>
     <!-- Main container for the question field -->
-    <div class="question-field">
+    <div class="username-field">
         <img class="logo" src="assets/images/quizer_logo.png" alt="logo">
-        <h1>Quizer</h1>
+        <h1>Welcome to Quizer</h1>
 
-        <!-- Username input -->
-        <label for="username">Username:</label>
-        <input type="text" id="usernameInput" placeholder="Enter your username">
+        <form id="username-form">
+            <!-- Username input -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
 
-        <!-- Start quiz button -->
-        <button id="startBtn">Start Quiz</button>
+            <!-- Start quiz button -->
+            <button id="submit">Start Quiz</button>
+        </form>
     </div>
+
+
 
     <!-- Script tag to include the JavaScript file -->
     <script src="assets/js/script.js"></script>
