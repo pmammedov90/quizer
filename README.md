@@ -20,7 +20,7 @@ Quizer is a quiz website that allows users to test their knowledge by answering 
 
 ## Getting Started
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone <https://github.com/pmammedov90/quizer.git>`
 2. Open the index.html file in a web browser.
 3. Enter your username and click the "Start Quiz" button.
 4. Answer the questions by selecting the appropriate choices.
