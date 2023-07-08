@@ -36,7 +36,3 @@ images/: Contains the image files used in the website.
 ## Contributing
 
 Contributions to the Quizer website are welcome! If you find any bugs, have suggestions for improvements, or would like to add new features, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).

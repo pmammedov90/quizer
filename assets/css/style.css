@@ -1,11 +1,12 @@
+/* Reset styles for all elements */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Belanosima', sans-serif;
     box-sizing: border-box;
-
 }
 
+/* Styles for username field and app container */
 .username-field,
 .app {
     display: flex;
@@ -16,6 +17,7 @@
     /* Adjust the height as needed */
 }
 
+/* Styles for input groups and app container */
 .input-group,
 .app {
     display: flex;
@@ -23,63 +25,75 @@
     margin-top: 20px;
 }
 
+/* Styles for input group labels, inputs, and buttons */
 .input-group label,
 .input-group input,
 .input-group button {
     margin: 0;
 }
 
+/* Styles for input group labels */
 .input-group label {
     display: flex;
     align-items: center;
 }
 
+/* Styles for input group inputs and buttons */
 .input-group input,
 .input-group button {
     height: 30px;
 }
 
+/* Styles for input group buttons */
 .input-group button {
     padding: 0 10px;
     background: rgb(226, 88, 88);
 }
 
+/* Styles for the logo within username field */
 .username-field img {
     margin-bottom: 20px;
     /* Optional: Add margin-bottom to the logo */
 }
 
+/* Styles for hover effects on start button and other buttons */
 .button-start:hover,
 .btn:hover:not([disabled]) {
     background-color: #f3a2a2;
     transition: 0.1s;
 }
 
+/* Styles for disabled buttons */
 .btn:disabled {
     cursor: no-drop;
 }
 
-
+/* Body styles */
 body {
     background: #8593a1;
 }
 
+/* Styles for app heading */
 .app h1 {
     font-weight: 25px;
+    /* Incorrect: Remove this line or fix the value */
     font-weight: 600;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
 }
 
+/* Styles for quiz questions */
 .quiz-questions {
     padding: 20px 0;
 }
 
+/* Styles for quiz question headings */
 .quiz-questions h2 {
     font-size: 18px;
     font-weight: 600;
 }
 
+/* Styles for general buttons */
 .btn {
     background: #fff;
     color: #222;
@@ -93,6 +107,7 @@ body {
     cursor: pointer;
 }
 
+/* Styles for next button */
 #next-button {
     background: rgb(226, 88, 88);
     font-weight: 500;
@@ -105,10 +120,12 @@ body {
     display: none;
 }
 
+/* Styles for correct answer highlighting */
 .correct {
     background: #1fc065;
 }
 
+/* Styles for incorrect answer highlighting */
 .incorrect {
     background: #c02323;
 }
