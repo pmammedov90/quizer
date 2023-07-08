@@ -1,39 +1,42 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quizer Website
 
-Welcome,
+Quizer is a quiz website that allows users to test their knowledge by answering multiple-choice questions. Users can enter their username, start the quiz, answer the questions, and see their final score.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+- Username entry: Users can enter their username before starting the quiz.
+- Multiple-choice questions: A series of questions are displayed, and users can select one option as their answer.
+- Score tracking: The website keeps track of the user's correct and incorrect answers.
+- Submission and final score: Once all the questions are answered, users can submit their answers and view their final score.
 
-## Codeanywhere Reminders
+## Technologies Used
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- HTML: Markup language used for creating the website structure.
+- CSS: Styling language used for enhancing the visual appearance.
+- JavaScript: Programming language used for adding interactivity and functionality.
+- localStorage: HTML5 web storage used to store the username.
+- Git: Version control system for tracking changes in the code.
+- GitHub: Hosting platform used for version control and deployment.
 
-`python3 -m http.server`
+## Getting Started
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+1. Clone the repository: `git clone <repository-url>`
+2. Open the index.html file in a web browser.
+3. Enter your username and click the "Start Quiz" button.
+4. Answer the questions by selecting the appropriate choices.
+5. Click the "Submit" button to see your final score.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Folder Structure
+index.html: The main entry point of the website.
+quiz.html: The page where the quiz questions are displayed.
+assets/css/: Contains the CSS files for styling the website.
+js/: Contains the JavaScript files for adding functionality.
+images/: Contains the image files used in the website.
 
-`http_server`
+## Contributing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Contributions to the Quizer website are welcome! If you find any bugs, have suggestions for improvements, or would like to add new features, please open an issue or submit a pull request.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## License
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+This project is licensed under the [MIT License](LICENSE).
