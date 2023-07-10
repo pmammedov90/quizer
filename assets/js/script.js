@@ -100,6 +100,7 @@ const questionElement = document.getElementById("question");
 const choiceButtons = document.getElementById("choice-buttons");
 const nextButton = document.getElementById("next-button");
 
+
 let currentQuestionIndex = 0; // Track the current question index
 let score = 0;
 
@@ -159,11 +160,13 @@ function selectAnswer(element) {
     nextButton.style.display = "block";
 }
 
+// Get the username from local storage
+let username = localStorage.getItem("username");
 
 // Function to show the final score
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `${username} scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Start Again";
     nextButton.style.display = "block";
 }
