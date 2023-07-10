@@ -159,6 +159,7 @@ function selectAnswer(element) {
     nextButton.style.display = "block";
 }
 
+
 // Function to show the final score
 function showScore() {
     resetState();
