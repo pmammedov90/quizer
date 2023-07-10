@@ -2,8 +2,6 @@
 let usernameInput = document.getElementById("username-input");
 let startButton = document.getElementById("start-button");
 
-user
-
 // Add a click event listener to the start button
 startButton.addEventListener("click", function (event) {
     event.preventDefault(); // Prevent the default form submission
